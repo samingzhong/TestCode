@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		08D7D00A23C71EEE00C11979 /* TestCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08D7D00A23C71EEE00C11979 /* codeTestHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = codeTestHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08D7D00D23C71EEE00C11979 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		08D7D00E23C71EEE00C11979 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		08D7D01023C71EEE00C11979 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		08D7D00123C71EEE00C11979 = {
 			isa = PBXGroup;
 			children = (
-				08D7D00C23C71EEE00C11979 /* TestCode */,
+				08D7D00C23C71EEE00C11979 /* codeTestHub */,
 				08D7D00B23C71EEE00C11979 /* Products */,
 				AAE99F5EE66D2A846A0E12DF /* Pods */,
 				C3FA91762732F9ADF75DCBFB /* Frameworks */,
@@ -60,12 +60,12 @@
 		08D7D00B23C71EEE00C11979 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				08D7D00A23C71EEE00C11979 /* TestCode.app */,
+				08D7D00A23C71EEE00C11979 /* codeTestHub.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		08D7D00C23C71EEE00C11979 /* TestCode */ = {
+		08D7D00C23C71EEE00C11979 /* codeTestHub */ = {
 			isa = PBXGroup;
 			children = (
 				08D7D00D23C71EEE00C11979 /* AppDelegate.h */,
@@ -80,7 +80,7 @@
 				08D7D01E23C71EF200C11979 /* Info.plist */,
 				08D7D01F23C71EF200C11979 /* main.m */,
 			);
-			path = TestCode;
+			path = codeTestHub;
 			sourceTree = "<group>";
 		};
 		AAE99F5EE66D2A846A0E12DF /* Pods */ = {
@@ -89,7 +89,6 @@
 				DA8F2809A1AA979E5B0FBC93 /* Pods-TestCode.debug.xcconfig */,
 				D15B048781C794215D280B89 /* Pods-TestCode.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -104,9 +103,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		08D7D00923C71EEE00C11979 /* TestCode */ = {
+		08D7D00923C71EEE00C11979 /* codeTestHub */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 08D7D02323C71EF200C11979 /* Build configuration list for PBXNativeTarget "TestCode" */;
+			buildConfigurationList = 08D7D02323C71EF200C11979 /* Build configuration list for PBXNativeTarget "codeTestHub" */;
 			buildPhases = (
 				167862C956B8872041F9D3D4 /* [CP] Check Pods Manifest.lock */,
 				08D7D00623C71EEE00C11979 /* Sources */,
@@ -117,9 +116,9 @@
 			);
 			dependencies = (
 			);
-			name = TestCode;
+			name = codeTestHub;
 			productName = TestCode;
-			productReference = 08D7D00A23C71EEE00C11979 /* TestCode.app */;
+			productReference = 08D7D00A23C71EEE00C11979 /* codeTestHub.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -136,7 +135,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 08D7D00523C71EEE00C11979 /* Build configuration list for PBXProject "TestCode" */;
+			buildConfigurationList = 08D7D00523C71EEE00C11979 /* Build configuration list for PBXProject "codeTestHub" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -149,7 +148,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				08D7D00923C71EEE00C11979 /* TestCode */,
+				08D7D00923C71EEE00C11979 /* codeTestHub */,
 			);
 		};
 /* End PBXProject section */
@@ -375,7 +374,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		08D7D00523C71EEE00C11979 /* Build configuration list for PBXProject "TestCode" */ = {
+		08D7D00523C71EEE00C11979 /* Build configuration list for PBXProject "codeTestHub" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				08D7D02123C71EF200C11979 /* Debug */,
@@ -384,7 +383,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		08D7D02323C71EF200C11979 /* Build configuration list for PBXNativeTarget "TestCode" */ = {
+		08D7D02323C71EF200C11979 /* Build configuration list for PBXNativeTarget "codeTestHub" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				08D7D02423C71EF200C11979 /* Debug */,
