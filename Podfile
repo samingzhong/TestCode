@@ -6,5 +6,6 @@ target 'codeTestHub' do
   use_frameworks!
 
   # Pods for codeTestHub
+  pod 'Masonry'
 
 end
