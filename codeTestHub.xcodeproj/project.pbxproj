@@ -14,7 +14,7 @@
 		08D7D01A23C71EF200C11979 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08D7D01923C71EF200C11979 /* Assets.xcassets */; };
 		08D7D01D23C71EF200C11979 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D7D01B23C71EF200C11979 /* LaunchScreen.storyboard */; };
 		08D7D02023C71EF200C11979 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D7D01F23C71EF200C11979 /* main.m */; };
-		9BA3AEB1E53FF987E4008E50 /* Pods_TestCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7DA1E435C3E10E47DBC8198 /* Pods_TestCode.framework */; };
+		9E81FC8CB039B6E3F9F33911 /* Pods_codeTestHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361D79A929F0EBE57F96A567 /* Pods_codeTestHub.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,9 +30,11 @@
 		08D7D01C23C71EF200C11979 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08D7D01E23C71EF200C11979 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08D7D01F23C71EF200C11979 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		361D79A929F0EBE57F96A567 /* Pods_codeTestHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_codeTestHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B447AE92ED99F538FF5D4AC /* Pods-codeTestHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codeTestHub.debug.xcconfig"; path = "Target Support Files/Pods-codeTestHub/Pods-codeTestHub.debug.xcconfig"; sourceTree = "<group>"; };
 		D15B048781C794215D280B89 /* Pods-TestCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCode.release.xcconfig"; path = "Target Support Files/Pods-TestCode/Pods-TestCode.release.xcconfig"; sourceTree = "<group>"; };
-		D7DA1E435C3E10E47DBC8198 /* Pods_TestCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8F2809A1AA979E5B0FBC93 /* Pods-TestCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCode.debug.xcconfig"; path = "Target Support Files/Pods-TestCode/Pods-TestCode.debug.xcconfig"; sourceTree = "<group>"; };
+		E2ADB2AB5B63B79A5DE69097 /* Pods-codeTestHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codeTestHub.release.xcconfig"; path = "Target Support Files/Pods-codeTestHub/Pods-codeTestHub.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BA3AEB1E53FF987E4008E50 /* Pods_TestCode.framework in Frameworks */,
+				9E81FC8CB039B6E3F9F33911 /* Pods_codeTestHub.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +90,8 @@
 			children = (
 				DA8F2809A1AA979E5B0FBC93 /* Pods-TestCode.debug.xcconfig */,
 				D15B048781C794215D280B89 /* Pods-TestCode.release.xcconfig */,
+				9B447AE92ED99F538FF5D4AC /* Pods-codeTestHub.debug.xcconfig */,
+				E2ADB2AB5B63B79A5DE69097 /* Pods-codeTestHub.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -95,7 +99,7 @@
 		C3FA91762732F9ADF75DCBFB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D7DA1E435C3E10E47DBC8198 /* Pods_TestCode.framework */,
+				361D79A929F0EBE57F96A567 /* Pods_codeTestHub.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -182,7 +186,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-TestCode-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-codeTestHub-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -337,7 +341,7 @@
 		};
 		08D7D02423C71EF200C11979 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA8F2809A1AA979E5B0FBC93 /* Pods-TestCode.debug.xcconfig */;
+			baseConfigurationReference = 9B447AE92ED99F538FF5D4AC /* Pods-codeTestHub.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -355,7 +359,7 @@
 		};
 		08D7D02523C71EF200C11979 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D15B048781C794215D280B89 /* Pods-TestCode.release.xcconfig */;
+			baseConfigurationReference = E2ADB2AB5B63B79A5DE69097 /* Pods-codeTestHub.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
