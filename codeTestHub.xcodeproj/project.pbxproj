@@ -374,9 +374,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q4J4V8H839;
+				DEVELOPMENT_TEAM = J3P7V5TL23;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/samchung/Documents/other/codeTestHub/codeTestHub/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "${SRCROOT}/codeTestHub/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/codeTestHub/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -397,7 +397,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q4J4V8H839;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/samchung/Documents/other/codeTestHub/codeTestHub/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "${SRCROOT}/codeTestHub/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/codeTestHub/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
