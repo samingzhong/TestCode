@@ -1,20 +1,26 @@
 PODS:
   - Masonry (1.1.0)
   - ReactiveObjC (3.1.1)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
 
 DEPENDENCIES:
   - Masonry
   - ReactiveObjC
+  - YYCategories
 
 SPEC REPOS:
   trunk:
     - Masonry
     - ReactiveObjC
+    - YYCategories
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
 
-PODFILE CHECKSUM: f07c33becba783352b745c7820cad6ab5d64e83c
+PODFILE CHECKSUM: a6e1c02656da52525075338d0fde18420222288d
 
 COCOAPODS: 1.9.0

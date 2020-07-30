@@ -14,5 +14,6 @@
 
 #import <Masonry/Masonry.h>
 #import <ReactiveObjC/ReactiveObjC.h>
+#import <YYCategories/YYCategories.h>
 
 #endif /* PrefixHeader_pch */
